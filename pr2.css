@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+}
+.bg{
+    display: flex;
+}
+.box1{
+    width: 200px;
+    height: 800px;
+    background-color: rgb(95, 87, 87);
+    color: white;
+    flex-basis: 200px;
+   
+
+}
+.top{
+    background-color: #530f84;
+    color: white;
+    font-style: italic;
+    height: 40px;
+}
+.ttx{
+   
+    margin-left: 70px;
+}
+.con1{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    height: 40px;
+   
+}
+.con1:hover{
+    cursor: pointer;
+    background-color: gray;
+}
+a{
+    text-decoration:none;
+    color: white;
+}
+.box2{
+    margin: 40px;
+}
+.whbox{
+    display: flex;
+    gap: 30px;
+    margin: 150px;
+}
+.para{
+    width: 280px;
+    height: 140px;
+    background-color: gray;
+   border-radius: 20px;
+   
+}
+.p1{
+    margin: 15px;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
