@@ -1,15 +1,18 @@
-*{
+* {
     margin: 0px;
 }
-body{
+
+body {
     background-color: rgb(58, 6, 96);
-   
+
 }
-.bg{
+
+.bg {
     display: flex;
-  
+
 }
-.box1{
+
+.box1 {
     width: 200px;
     height: 790px;
     background-color: black;
@@ -17,90 +20,107 @@ body{
 
 }
 
-.ttx{
-     font-style: italic;
-   margin-top: 20px;
+.ttx {
+    font-style: italic;
+    margin-top: 20px;
     margin-left: 50px;
 }
-.box2{
+
+.box2 {
     height: 250px;
     background-color: white;
-   width: 900px;
+    width: 900px;
     border-radius: 20px;
     margin-top: 30px;
     margin-left: 50px;
-    
+
 }
-.name{
+
+.name {
     margin-top: 50px;
     margin-left: 40px;
 }
-#c1,.c1{
+
+#c1,
+.c1 {
     color: goldenrod;
 }
-#c5,.c5{
+
+#c5,
+.c5 {
     color: red;
 }
-.con1{
+
+.con1 {
     margin-top: 30px;
     margin-left: 10px;
     display: flex;
     flex-direction: row;
     gap: 20px;
     height: 40px;
-   
+
 }
-.con1:hover{
+
+.con1:hover {
     cursor: pointer;
-   
+
 }
-a{
-    text-decoration:none;
+
+a {
+    text-decoration: none;
     color: white;
 }
-.move{
-   background-color:white;
-   color: black;
-   width: 250px;
-   height: 60px;
-   text-align: center;
-   border-radius: 5px;
-   border-style: solid;
-   border-color: black;
-  margin-top:250px ;
-  margin-left:450px ;
-   animation: 2s infinite linear  op;
+
+.move {
+    background-color: white;
+    color: black;
+    width: 250px;
+    height: 60px;
+    text-align: center;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: black;
+    margin-top: 250px;
+    margin-left: 450px;
+    animation: 2s infinite linear op;
 
 }
-.text1{
+
+.text1 {
     margin-right: 150px;
 }
-@keyframes op{
-   50%{opacity: 0;}
-}
-@media (max-width:480px)
-{
 
-     .ttx{
+@keyframes op {
+    50% {
+        opacity: 0;
+    }
+}
+
+@media (max-width:480px) {
+
+    .ttx {
         margin-left: 30px;
     }
-    .box1{
-         width: 180px;
-    height:100%;
+
+    .box1 {
+        width: 180px;
+        height: 810px;
     }
-    .box2{
+
+    .box2 {
         width: 230px;
         height: 130px;
-         margin-left: 20px;
+        margin-left: 20px;
     }
-    .move{
-         margin-top:50px ;
-  margin-left:0px ;
-  width: 230px;
+
+    .move {
+        margin-top: 50px;
+        margin-left: 0px;
+        width: 230px;
     }
-    
-.name{
-    margin-top: 40px;
-    margin-left: 30px;
-}
+
+    .name {
+        margin-top: 40px;
+        margin-left: 30px;
+    }
 }
