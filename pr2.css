@@ -10,12 +10,9 @@ body{
 }
 .box1{
     width: 200px;
-    flex-basis: 200px;
     height: 790px;
     background-color:black;
     color: white;
-    flex-basis: 200px;
-
 }
 
 .ttx{
@@ -82,4 +79,20 @@ a{
     transition: 0.8s;
     transform: scale(1.05);
     box-shadow: 0px 2px 20px yellow;
+}
+@media (max-width:400px)
+{
+
+     .ttx{
+        margin-left: 30px;
+    }
+    .box1{
+         width: 180px;
+    height: 770px;
+    }
+    .whbox{
+flex-direction: column;
+ margin-left: 0px;
+   margin-top: 70px;
+    }
 }

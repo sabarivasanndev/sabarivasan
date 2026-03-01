@@ -3,18 +3,17 @@
 }
 body{
     background-color: rgb(58, 6, 96);
+   
 }
 .bg{
     display: flex;
-   
+  
 }
 .box1{
     width: 200px;
-    flex-basis: 200px;
     height: 790px;
     background-color: black;
     color: white;
-    flex-basis: 200px;
 
 }
 
@@ -26,8 +25,7 @@ body{
 .box2{
     height: 250px;
     background-color: white;
-   flex-wrap: wrap;
-    flex-basis:1200px;
+   width: 900px;
     border-radius: 20px;
     margin-top: 30px;
     margin-left: 50px;
@@ -70,7 +68,7 @@ a{
    border-style: solid;
    border-color: black;
   margin-top:250px ;
-  margin-left:500px ;
+  margin-left:450px ;
    animation: 2s infinite linear  op;
 
 }
@@ -79,4 +77,25 @@ a{
 }
 @keyframes op{
    50%{opacity: 0;}
+}
+@media (max-width:400px)
+{
+
+     .ttx{
+        margin-left: 30px;
+    }
+    .box1{
+         width: 180px;
+    height: 770px;
+    }
+    .box2{
+        width: 320px;
+        height: 130px;
+         margin-left: 20px;
+    }
+    .move{
+         margin-top:50px ;
+  margin-left:0px ;
+  width: 230px;
+    }
 }
