@@ -1,14 +1,17 @@
-*{
+* {
     margin: 0px;
 }
-body{
+
+body {
     background-color: rgb(58, 6, 96);
 }
-.bg{
+
+.bg {
     display: flex;
-   
+
 }
-.box1{
+
+.box1 {
     width: 200px;
     flex-basis: 200px;
     height: 790px;
@@ -18,78 +21,91 @@ body{
 
 }
 
-.ttx{
-     font-style: italic;
-   margin-top: 20px;
+.ttx {
+    font-style: italic;
+    margin-top: 20px;
     margin-left: 50px;
 }
-#c3,.c3{
+
+#c3,
+.c3 {
     color: goldenrod;
 }
-#c5,.c5{
+
+#c5,
+.c5 {
     color: red;
 }
-.con1{
+
+.con1 {
     margin-top: 30px;
     margin-left: 10px;
     display: flex;
     flex-direction: row;
     gap: 20px;
     height: 40px;
-   
+
 }
-.con1:hover{
+
+.con1:hover {
     cursor: pointer;
-   
+
 }
-a{
-    text-decoration:none;
+
+a {
+    text-decoration: none;
     color: white;
 }
-.box2{
-   margin: 40px;
+
+.box2 {
+    margin: 40px;
     color: white;
     width: 800px;
     height: 500px;
 }
 
-.image{
-   
+.image {
+
     display: flex;
-     gap: 50px;
+    gap: 50px;
     margin-top: 200px;
     margin-left: 90px;
-    
+
 }
-.img1{
-   
+
+.img1 {
+
     color: white;
     text-align: center;
-   
+
 }
-.txt:hover{
+
+.txt:hover {
     transition: 0.8s;
     box-shadow: 0px 2px 25px white;
     transform: scale(1.05);
 }
-@media (max-width:480px)
-{
 
-    .box1{
-         width: 180px;
-    height: 770px;
+@media (max-width:480px) {
+
+    .box1 {
+        width: 180px;
+        height: 770px;
     }
-    .image{
+
+    .image {
         flex-direction: column;
         gap: 30px;
-         margin-top: 20px;
-    margin-left: 0px;
+        margin-top: 20px;
+        margin-left: 0px;
     }
-    .txt{
+
+    .txt {
         width: 200px;
         height: 150px;
     }
-    .ttx{
+
+    .ttx {
         margin-left: 30px;
     }
 

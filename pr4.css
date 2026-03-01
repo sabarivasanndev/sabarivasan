@@ -1,108 +1,125 @@
-*{
+* {
     margin: 0px;
 }
-body{
+
+body {
     background-color: rgb(58, 6, 96);
 }
-.bg{
+
+.bg {
     display: flex;
-   
+
 }
-.box1{
+
+.box1 {
     width: 200px;
     flex-basis: 200px;
     height: 790px;
-    background-color:black;
+    background-color: black;
     color: white;
     flex-basis: 200px;
 
 }
 
-.ttx{
-     font-style: italic;
-   margin-top: 20px;
+.ttx {
+    font-style: italic;
+    margin-top: 20px;
     margin-left: 50px;
 }
-#c4,.c4{
+
+#c4,
+.c4 {
     color: goldenrod;
 }
-#c5,.c5{
+
+#c5,
+.c5 {
     color: red;
 }
-.con1{
+
+.con1 {
     margin-top: 30px;
     margin-left: 10px;
     display: flex;
     flex-direction: row;
     gap: 20px;
     height: 40px;
-   
+
 }
-.con1:hover{
+
+.con1:hover {
     cursor: pointer;
-   
+
 }
+
 .b1 {
-   
+
     display: grid;
-   grid-template-columns: 100px ;
-   grid-template-rows: 100px;
+    grid-template-columns: 100px;
+    grid-template-rows: 100px;
     background-color: lightblue;
-  margin-right: 20px;
-   
-   
+    margin-right: 20px;
+
+
 }
-a{
-    text-decoration:none;
+
+a {
+    text-decoration: none;
     color: white;
 }
-.box2{
+
+.box2 {
     margin: 30px;
     color: white;
 }
-.abtbg{
-    background-color:white;
+
+.abtbg {
+    background-color: white;
     color: black;
     margin-left: 150px;
     margin-top: 120px;
     width: 750px;
     height: 350px;
     border-radius: 20px;
-    border-width:2px;
+    border-width: 2px;
     border-color: black;
-    border-style:dashed ;
+    border-style: dashed;
 }
-.abt{
-   display: flex;
-   flex-direction: column;
-   gap:25px;
+
+.abt {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
     padding: 40px;
 }
-.abtbg:hover{
+
+.abtbg:hover {
     cursor: pointer;
     transition: 1.5s;
     transform: scale(1.05);
     box-shadow: 0px 2px 25px yellow;
 }
 
-@media (max-width:480px)
-{
+@media (max-width:480px) {
 
-    .box1{
-         width: 180px;
-    height: 770px;
+    .box1 {
+        width: 180px;
+        height: 770px;
     }
-     .ttx{
+
+    .ttx {
         margin-left: 30px;
     }
-    .abtbg{
+
+    .abtbg {
         margin-left: 0px;
-    margin-top: 40px;
-    width: 200px;
-    height: 560px;
+        margin-top: 40px;
+        width: 200px;
+        height: 560px;
 
     }
-    .abt{
+
+    .abt {
         flex-direction: column;
         padding: 40px;
         gap: 30px;
