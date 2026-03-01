@@ -78,7 +78,7 @@ a{
 @keyframes op{
    50%{opacity: 0;}
 }
-@media (max-width:400px)
+@media (max-width:480px)
 {
 
      .ttx{
