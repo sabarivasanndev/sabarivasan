@@ -16,7 +16,7 @@ body {
     width: 200px;
     height: 790px;
     color: white;
-    border-width: 0px 2px 0px 0px ;
+    border-width: 0px 2px 0px 0px;
     border-color: grey;
     border-style: solid;
 }
@@ -28,9 +28,9 @@ body {
 }
 
 .box2 {
-    height: 250px;
+    height: 150px;
     background-color: white;
-    width: 900px;
+    width: 600px;
     border-radius: 20px;
     margin-top: 30px;
     margin-left: 50px;
@@ -75,14 +75,14 @@ a {
 .move {
     background-color: white;
     color: black;
-    width: 250px;
+    width: 190px;
     height: 60px;
     text-align: center;
     border-radius: 5px;
     border-style: solid;
     border-color: black;
-    margin-top: 250px;
-    margin-left: 450px;
+    margin-top: 150px;
+    margin-left: 100px;
     animation: 2s infinite linear op;
 
 }
@@ -109,19 +109,38 @@ a {
     }
 
     .box2 {
-        width: 230px;
+
+        width: 200px;
         height: 130px;
-        margin-left: 20px;
+        margin-top: 180px;
+        margin-left: -190px;
     }
 
     .move {
         margin-top: 50px;
         margin-left: 0px;
-        width: 230px;
+        width: 180px;
     }
 
     .name {
+
         margin-top: 40px;
         margin-left: 30px;
     }
+
+    img {
+        width: 100px;
+        height: 100px;
+        margin-left:0px;
+        margin-top: 0px;
+        position: relative;
+        right: 35px;
+
+    }
+}
+
+img {
+    margin-left: 100px;
+    margin-top: 30px;
+    box-shadow: 0px 2px 25px white;
 }

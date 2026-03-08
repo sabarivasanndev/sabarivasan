@@ -6,7 +6,7 @@ var trya= document.getElementById("trya");
 if(input=="Sabari")
 {
     result.textContent="Home";
-    result.href="index.html";
+    result.href="home.html";
 }
 else
 {
