@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: rgb(58, 6, 96);
+    background-color: #01033c;
 }
 
 .bg {
@@ -14,8 +14,10 @@ body {
 .box1 {
     width: 200px;
     height: 790px;
-    background-color: black;
-    color: white;
+   color: white;
+    border-width: 0px 2px 0px 0px ;
+    border-color: grey;
+    border-style: solid;
 }
 
 .ttx {
